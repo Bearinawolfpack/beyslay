@@ -1,10 +1,14 @@
 import React from "react";
 
-const BeyCard = () => {
+const BeyCard = (props) => {
+  // console.log(props.clickHandler)
+
+  
+
   return (
     <div>
-      <h3>{/*Bey name goes here*/}</h3>
-      {/*image tag goes here*/}
+      <h3>{props.bey.name}</h3>
+      <img src={props.bey.img} alt="" onClick={() => props.clickHandler(props.bey.id)}/>
     </div>
   );
 };

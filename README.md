@@ -5,22 +5,19 @@ You are given an api.js file that exports an array of objects that look like thi
 
 # Deliverables:
 
-- Render a list of all Beyonce images
+-- Render a list of all Beyonce images
 
-- When a User clicks on a Beyonce image in `BeyContainer` it should change the `favorite` key of that object to `true`, which should then add that Beyonce to the FavoritesContainer. 
+-- When a User clicks on a Beyonce image in `BeyContainer` it should change the `favorite` key of that object to `true`, which should then add that Beyonce to the FavoritesContainer. 
 
-- When a User clicks on a Beyonce image in the `Favorites` container, it should change the `favorite` key of that object to `false`, which should then remove it from the FavoritesContainer and send an alert saying "I got a hot sauce in my bag, swag"
+-- When a User clicks on a Beyonce image in the `Favorites` container, it should change the `favorite` key of that object to `false`, which should then remove it from the FavoritesContainer and send an alert saying "I got a hot sauce in my bag, swag"
 
-# What are we practicing?
+- Add a create form so a user can add their own gif to the Index
 
-- using both functional and class components
-- deciding which component should make our api request
-- deciding which component(s) should have state
-- changing the state of a parent component from its child
-- passing a callback function as a prop to be used by a child component
-- manipulating objects inside of arrays in state
-- reusing a component
-- lifting state
+- Add a search form for the entire application
+
+- This means that when I search for the name of a gif, both my Index AND my Favorites should filter through their lists
+
+
 
 # Hint
 
@@ -28,3 +25,9 @@ You are given an api.js file that exports an array of objects that look like thi
 - Look up the window.alert() function
 
 ![beyonce gif](bey-slay.gif)
+
+Not Another Bey GIF
+https://media1.tenor.com/images/aa7621e42fc930e5719b81c757c0c4e9/tenor.gif?itemid=14998618
+
+You Died
+https://thumbs.gfycat.com/AlarmedContentColt-max-1mb.gif
