@@ -16,10 +16,10 @@ class BeyForm extends React.Component {
     submitHandler = (event) => {
         event.preventDefault()
         this.props.submitHandler(this.state)
-        // this.setState({
-        //     name: "",
-        //     img: ""
-        // })
+        this.setState({
+            name: "",
+            img: ""
+        })
     }
 
     render(){
